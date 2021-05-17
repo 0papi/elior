@@ -213,7 +213,7 @@ a.active,a:hover {
 
    .hero-motto {
      color: var(--main-color); 
-     font-size: 10px;
+     font-size: 1rem;
      padding-bottom: 10px;
    }
 
@@ -254,7 +254,7 @@ a.active,a:hover {
 
    .hero-button a {
      color: var(--white-color);
-     font-size: 2rem;
+     font-size: 1.5rem;
    }
 
    .hero-button a:hover {
@@ -357,10 +357,10 @@ a.active,a:hover {
     margin-bottom: 15px;
     display: flex; 
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 10px 15px 10px 10px; 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     cursor: pointer;
   }
 
@@ -513,11 +513,11 @@ a.price-card-btn {
 }
 
 .people-price .price-card-button {
-  background-color: rgb(0, 77, 64)
+  background-color: var(--main-color); 
 }
 
 .hospital-price .price-card-button {
-  background-color: rgb(0, 184, 212)
+  background-color: var(--main-color); 
 }
 
 .drug-price .price-card-button {
