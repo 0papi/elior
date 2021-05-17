@@ -73,11 +73,11 @@ nav  {
   width: 100%;
 }
 
-label.logo {
+nav label.logo {
   color:var(--white-color); 
-  font-size: 35px;
+  font-size: 1.5rem;
   line-height: 80px;
-  padding: 0 100px; 
+  padding: 1.5em 1em; 
   /* font-weight: bold; */
   font-family: 'Pacifico','cursive';
 }
@@ -212,12 +212,12 @@ a.active,a:hover {
 
    .hero-motto {
      color: var(--main-color); 
-     font-size: 13px;
+     font-size: 10px;
    }
 
    .hero-text-main h3 {
      text-align: center;
-     font-size: 2rem;
+     font-size: 1.5rem;
      margin-bottom: 1em;
    }
 
@@ -226,7 +226,7 @@ a.active,a:hover {
    }
 
    .hero-text-main p{
-     font-size: 1.5rem;
+     font-size: 1.3rem;
      line-height: 1.6;
    }
 
