@@ -190,8 +190,8 @@ a.active,a:hover {
    ====================== */
 
    .hero-section img {
-     max-width: 450px;
-     margin-top: 1em;
+     max-width: 400px;
+     margin: 1em auto; 
    }
 
    .hero-section {
@@ -214,6 +214,7 @@ a.active,a:hover {
    .hero-motto {
      color: var(--main-color); 
      font-size: 10px;
+     padding-bottom: 10px;
    }
 
    .hero-text-main h3 {
@@ -248,6 +249,7 @@ a.active,a:hover {
      width: 100%;
      border-radius: 10px;
      margin-top: 1em;
+     margin-bottom: 1em;
    }
 
    .hero-button a {
@@ -259,6 +261,7 @@ a.active,a:hover {
      background-color: transparent;
    }
 
+   
    /* ======================
           Intro Section
    ====================== */
@@ -618,7 +621,7 @@ a.price-card-btn {
    }
 
    .logo-section, .policies-section {
-     margin-bottom: 1em;
+     margin-bottom: 1.5em;
    }
 
    .logo-section .email img,
@@ -645,7 +648,7 @@ a.price-card-btn {
    .socials-section .fab {
      color: #f5f5f5; 
      font-size: 2.5rem; 
-     margin-right: 10px;
+     margin-right: 1em;
      text-align: center;
    }
 
